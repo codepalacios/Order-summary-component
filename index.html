@@ -1,37 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Frontend Mentor Order summary component challenge"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Order summary card</title>
 
-  Order Summary
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/mobile-design.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/desktop-design.css"
+      media="screen and (min-width: 376px)"
+    />
+  </head>
+  <body>
+    <main class="container-main">
+      <img
+        class="container-main__image-hero"
+        src="./images/illustration-hero.svg"
+        alt="illustration hero"
+      />
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+      <section class="container-main__section">
+        <h1 class="container-main__order-summary">Order Summary</h1>
 
-  Annual Plan
-  $59.99/year
+        <p class="container-main__order-text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
 
-  Change
+        <div class="container-main__plan">
+          <img
+            class="container-main__image-music"
+            src="./images/icon-music.svg"
+            alt="icon music"
+          />
+          <div class="container-main__plan-text">
+            <p class="container-main__plan-annual">Annual Plan</p>
+            <p class="container-main__plan-price">$59.99/year</p>
+          </div>
+          <a class="container-main__plan-change" href="#">Change</a>
+        </div>
 
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <button class="container-main__button-payment">
+          Proceed to Payment
+        </button>
+
+        <a class="container-main__cancel-order" href="#">Cancel Order</a>
+      </section>
+    </main>
+  </body>
 </html>
