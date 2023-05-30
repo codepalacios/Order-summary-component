@@ -1,0 +1,58 @@
+/* Desktop design */
+@media (min-width: 376px) {
+  html {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+}
+
+.container-main {
+  width: 450px;
+  height: 697px;
+}
+
+.container-main__image-hero {
+  width: 450px;
+  height: 220px;
+}
+
+.container-main__section {
+  width: 354px;
+  height: 384px;
+  margin: 45px 48px 48px 48px;
+}
+
+.container-main__order-summary {
+  font-size: 28px;
+}
+
+.container-main__order-text {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 17px 0px 20px 0px;
+}
+
+.container-main__plan {
+  height: 98px;
+  padding: 25px 24px;
+}
+
+.container-main__plan-text {
+  margin-right: 94px;
+}
+
+.container-main__plan-annual {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.container-main__plan-price {
+  font-size: 16px;
+}
+
+.container-main__plan-change {
+  font-size: 14px;
+}
+
+.container-main__button-payment {
+  margin: 32px 0px;
+}

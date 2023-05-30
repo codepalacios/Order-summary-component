@@ -82,6 +82,7 @@ body {
   color: hsl(223, 47%, 23%);
   margin-bottom: 3px;
 }
+
 .container-main__plan-price {
   font-weight: 500;
   font-size: 14px;
@@ -108,7 +109,7 @@ body {
   border: none;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
   font-weight: 900;
-  font-size: 13.5px;
+  font-size: 14px;
   color: hsl(0, 0%, 100%);
   margin: 24px 0px;
 }
