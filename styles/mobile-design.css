@@ -1,3 +1,17 @@
+/* Vars */
+:root {
+  --textMedium: 500;
+  --textBold: 700;
+  --textBlack: 900;
+  --white: hsl(0, 0%, 100%);
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+  --softBlue: hsl(245, 83%, 68%);
+}
+
 /* Reset styles */
 * {
   box-sizing: border-box;
@@ -11,7 +25,7 @@ html {
   background-image: url("../images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: hsl(225, 100%, 94%);
+  background-color: var(--paleBlue);
 }
 
 body {
@@ -24,7 +38,7 @@ body {
 .container-main {
   width: 327px;
   height: 567px;
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
   border-radius: 20px;
 }
@@ -43,15 +57,15 @@ body {
 }
 
 .container-main__order-summary {
-  color: hsl(223, 47%, 23%);
-  font-weight: 900;
+  color: var(--darkBlue);
+  font-weight: var(--textBlack);
   font-size: 22px;
   text-align: center;
 }
 
 .container-main__order-text {
-  color: hsl(224, 23%, 55%);
-  font-weight: 500;
+  color: var(--desaturatedBlue);
+  font-weight: var(--textMedium);
   font-size: 15px;
   text-align: center;
   line-height: 25px;
@@ -63,7 +77,7 @@ body {
   height: 81px;
   display: flex;
   align-items: center;
-  background-color: hsl(225, 100%, 98%);
+  background-color: var(--veryPaleBlue);
   border-radius: 11px;
   padding: 17px 16px 16px 16px;
 }
@@ -77,26 +91,26 @@ body {
 }
 
 .container-main__plan-annual {
-  font-weight: 900;
+  font-weight: var(--textBlack);
   font-size: 14px;
-  color: hsl(223, 47%, 23%);
+  color: var(--darkBlue);
   margin-bottom: 3px;
 }
 
 .container-main__plan-price {
-  font-weight: 500;
+  font-weight: var(--textMedium);
   font-size: 14px;
-  color: hsl(224, 23%, 55%);
+  color: var(--desaturatedBlue);
 }
 
 .container-main__plan-change {
-  font-weight: 700;
+  font-weight: var(--textBold);
   font-size: 13px;
-  color: hsl(245, 75%, 52%);
+  color: var(--brightBlue);
 }
 
 .container-main__plan-change:hover {
-  color: hsl(245, 83%, 68%);
+  color: var(--softBlue);
   text-decoration: none;
 }
 
@@ -104,30 +118,30 @@ body {
   display: block;
   width: 100%;
   height: 50px;
-  background-color: hsl(245, 75%, 52%);
+  background-color: var(--brightBlue);
   border-radius: 11px;
   border: none;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
-  font-weight: 900;
+  font-weight: var(--textBlack);
   font-size: 14px;
-  color: hsl(0, 0%, 100%);
+  color: var(--white);
   margin: 24px 0px;
 }
 
 .container-main__button-payment:hover {
-  background-color: hsl(245, 83%, 68%);
+  background-color: var(--softBlue);
   cursor: pointer;
 }
 
 .container-main__cancel-order {
   display: block;
-  font-weight: 900;
+  font-weight: var(--textBlack);
   font-size: 15px;
-  color: hsl(224, 23%, 55%);
+  color: var(--desaturatedBlue);
   text-align: center;
   text-decoration: none;
 }
 
 .container-main__cancel-order:hover {
-  color: hsl(223, 47%, 23%);
+  color: var(--darkBlue);
 }

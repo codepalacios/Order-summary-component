@@ -1,0 +1,6 @@
+/* Tablet design */
+@media (min-width: 376px) {
+  html {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+}
